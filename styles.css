@@ -4,9 +4,11 @@
 body {
   margin: 0;
 }
+img {
+  width: 100%;
+}
 .header-menu-left {
   text-align: left;
-
 }
 ul {
   display: inline-block;
@@ -24,8 +26,12 @@ header {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-img {
-  width: 100%;
+input {
+  background-color: #404447;
+  width: 250px;
+  height: 30px;
+  border-style: none;
+  border-radius: 4px;
 }
 a {
   text-decoration: none;
@@ -44,4 +50,14 @@ i.fa-github {
 }
 .fa-caret-down {
   padding-left: 5px;
+}
+div>a>img {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  position: absolute;
+}
+aside {
+  margin-left: 100px;
+  margin-top: 15px;
 }

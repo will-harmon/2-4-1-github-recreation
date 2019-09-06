@@ -26,7 +26,7 @@ header {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-input {
+input.header-search {
   background-color: #404447;
   width: 250px;
   height: 30px;
@@ -52,12 +52,29 @@ i.fa-github {
   padding-left: 5px;
 }
 div>a>img {
-  height: 250px;
-  width: 250px;
+  width: 100%;
   overflow: hidden;
-  position: absolute;
 }
 aside {
   margin-left: 100px;
   margin-top: 15px;
+  float: left;
+}
+div.profile-pic {
+  background-image: url("IMG_0289.jpg");
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border: 1px solid grey;
+  border-radius: 2px;
+  border-opacity: 0.1;
+  background-size: cover;
+}
+main {
+  display: inline-block;
+  margin-left: 50px;
+}
+ul.nav-menu-main>li {
+  padding-right: 55px;
+  align-content: left;
 }

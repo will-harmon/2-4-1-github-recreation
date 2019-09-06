@@ -1,12 +1,19 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+}
 .header-menu-left {
   text-align: left;
+
+}
+ul {
+  display: inline-block;
 }
 li {
   display: inline-block;
-  padding-right: 5px;
+  padding-right: 7px;
 }
 div.container {
   font-family: 'Roboto', sans-serif;
@@ -14,9 +21,27 @@ div.container {
 header {
   color: #fff;
   background-color: #25292D;
-  margin: 0;
-
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 img {
   width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+a:hover {
+  color: #BEBFC0;
+}
+i.fa-github {
+  font-size: 35px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 0;
+  padding-top: 10px;
+}
+.fa-caret-down {
+  padding-left: 5px;
 }

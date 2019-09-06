@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.header-menu-left {
+  text-align: left;
+}
+li {
+  display: inline-block;
+  padding-right: 5px;
+}
+div.container {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  color: #fff;
+  background-color: #25292D;
+  margin: 0;
+
+}
+img {
+  width: 100%;
+}

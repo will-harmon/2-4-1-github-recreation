@@ -10,6 +10,17 @@ img {
 .header-menu-left {
   text-align: left;
 }
+.header-menu-right {
+  padding-left: 570px;
+}
+.small-profile-pic {
+  background-image: url("IMG_0289.jpg");
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  background-size: cover;
+  display:inline-block;
+}
 ul {
   display: inline-block;
 }
@@ -62,8 +73,8 @@ aside {
 }
 div.profile-pic {
   background-image: url("IMG_0289.jpg");
-  height: 250px;
-  width: 250px;
+  height: 275px;
+  width: 275px;
   overflow: hidden;
   border: 1px solid grey;
   border-radius: 2px;
@@ -73,8 +84,63 @@ div.profile-pic {
 main {
   display: inline-block;
   margin-left: 50px;
+  width: 900px;
+  height: 100%;
 }
-ul.nav-menu-main>li {
+ul.nav-menu-main>li>a {
   padding-right: 55px;
+  padding-top: 15px;
   align-content: left;
+  color: #596068;
+  margin-left: -30px;
+  font-size: 14px;
+}
+a.nav-menu-hover:hover {
+  color: black;
+  border-bottom: 1px solid grey;
+
+}
+input.find-repo-searchbar {
+  color: #D2D5D9;
+  border-radius: 2px;
+  border: 1px solid #D2D5D9;
+  width: 500px;
+  height: 25px;
+}
+button.buttons-nav-main {
+  margin-left: 15px;
+  color: #7E8285;
+  background-color: #F1F4F6;
+  border-radius: 2px;
+  font-size: 18px;
+}
+button.buttons-nav-new {
+  background-color: #5FBA5D;
+  margin-left: 15px;
+  border-radius: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+div.section-repo-search {
+  border-top: 1px solid #D2D5D9;
+  border-bottom: 1px solid #D2D5D9;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+ul.repositories>li {
+  display: block;
+  padding-bottom: 20px;
+}
+ul.repositories>li>a {
+  color: #2367CF;
+  font-size: 20px;
+}
+.edit-profile {
+  font-size: 22px;
+  width: 275px;
+  margin-top: 20px;
+}
+div.name-and-edit {
+  border-bottom: 1px solid #D2D5D9;
+  padding-bottom: 40px;
 }

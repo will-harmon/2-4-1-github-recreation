@@ -72,7 +72,7 @@ aside {
   float: left;
 }
 div.profile-pic {
-  background-image: url("IMG_0289.jpg");
+  /* background-image: url("IMG_0289.jpg"); */
   height: 275px;
   width: 275px;
   overflow: hidden;

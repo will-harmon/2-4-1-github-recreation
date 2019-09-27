@@ -58,6 +58,8 @@ $(function() {
   let source = $('#repositories-template').html();
   let template = Handlebars.compile(source);
   let context = res.data;
+  console.log('context', context);
+  // context.updated_at = moment(context.updated_at).format('MMMM Do YYYY, h:mm:ss a');
   let html = template({repos:context});
 
   $('.repositories-data').html(html);
